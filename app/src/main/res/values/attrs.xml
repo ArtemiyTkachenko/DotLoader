@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="DotLoader">
+        <attr name="dot_amount" format="integer"/>
+        <attr name="pulse_strength" format="float"/>
+        <attr name="dot_size" format="integer"/>
+        <attr name="item_distance" format="float"/>
+        <attr name="delay" format="integer"/>
+    </declare-styleable>
+</resources>
