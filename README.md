@@ -25,7 +25,7 @@ Progress loader with customizable dot size, amount, delay in animation and pulse
         app:pulse_strength="0.6"/>
 ```
 
-app:delay - delay betweeen item animations  
+app:delay - delay betweeen item animations in millis  
 app:item_distance - distance between items in dp   
 app:dot_size - size of the items in dp  
 app:dot_amount - amount of dots  
