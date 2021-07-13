@@ -98,6 +98,12 @@ class DotLoader @JvmOverloads constructor(
         }
     }
 
+    override fun onDetachedFromWindow() {
+        isAnimating = false
+        visibility = View.GONE
+        super.onDetachedFromWindow()
+    }
+
     private fun setAnimator(view: View, delay: Long, isReversed: Boolean = false) {
         if (isAnimating) {
             val increment = if (isReversed) 1F else -1F
