@@ -1,1 +1,3 @@
 # DotLoader
+
+Dot progress loader
